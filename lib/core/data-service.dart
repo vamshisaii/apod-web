@@ -2,7 +2,7 @@
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:dio/dio.dart';
 
-class DataService {//client.badCertificateCallback = (X509Certificate cert, String host, int port) => true;
+class DataService {
   var dio = Dio();
 
   static Future<Map> get(String url, {Map params}) async {
